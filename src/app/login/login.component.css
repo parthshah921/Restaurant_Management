@@ -1,0 +1,19 @@
+body {
+  /* background-image: url("../../public/images/back_ground.jpg"); */
+  background-image: url("../../public/images/background_img.webp");
+
+  background-size: cover; /* Adjust the background size as needed */
+  /* Center the background image */
+  width: auto;
+  height: 772px;
+}
+.card {
+  position: relative;
+  left: 50%;
+  margin-top: 20%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 55px;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+}

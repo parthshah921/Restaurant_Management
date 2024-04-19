@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Gwalia",
+      "address": "25 Woodbine downs",
+      "email": "gwalia@gmail.com",
+      "services": "chai , Chat, Punjabi, Chinese",
+      "mobile": 6474747474
+    },
+    {
+      "id": 2,
+      "name": "Punjabi Haveli",
+      "address": "12 Damascus Dr",
+      "email": "phaveli@gmail.com",
+      "services": "Sp. Chole, Butter Chicken",
+      "mobile": 78941252511
+    },
+    {
+      "id": 3,
+      "name": "Tandoori Flames",
+      "address": "129 missisauga rd",
+      "email": "tflames@gmail.com",
+      "services": "buffet lunch and dinner with 120 plus dishes",
+      "mobile": 7573939393
+    },
+    {
+      "id": 4,
+      "name": "Honest",
+      "address": "25 Woodbine Downs",
+      "email": "honest@yahoo.com",
+      "services": "Indian style Burger, Dosa",
+      "mobile": 16473093949
+    }
+  ],
+  "signup": [
+    {
+      "name": "arayan hotel 1",
+      "email": "sibashish@abc.com",
+      "mobile": 8769145511,
+      "password": "password@123",
+      "id": 1
+    },
+    {
+      "name": "Selection",
+      "email": "selection@abc.com",
+      "mobile": 3164631649,
+      "password": "passowrd@123",
+      "id": 2
+    },
+    {
+      "name": "Test",
+      "email": "test@test.com",
+      "mobile": 9876543210,
+      "password": "test@2023",
+      "id": 3
+    },
+    {
+      "name": "Rushi",
+      "email": "r@gmail.com",
+      "mobile": 6473093938,
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "Meet",
+      "email": "meet@gmail.com",
+      "mobile": 6473930000,
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "Monish",
+      "email": "m@gmail.com",
+      "mobile": 5467378888,
+      "password": "12345678",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

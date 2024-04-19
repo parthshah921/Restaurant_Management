@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Server Paths</title>
+  </head>
+  <body>
+    <h1>Available Paths:</h1>
+    <ul id="paths">
+      <li>http://localhost:3000/posts</li>
+      <li>http://localhost:3000/signup</li>
+      <li>http://localhost:3000/comments</li>
+      <li>http://localhost:3000/profile</li>
+    </ul>
+
+    <script>
+      // Fetch JSON server info
+      fetch("http://localhost:3000")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to fetch JSON server info");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          const paths = Object.keys(data).filter((key) => key !== "undefined");
+          const pathsList = document.getElementById("paths");
+          paths.forEach((path) => {
+            const listItem = document.createElement("li");
+            listItem.textContent = `/${path}`;
+            pathsList.appendChild(listItem);
+          });
+        })
+        .catch((error) =>
+          console.error("Error fetching JSON server info:", error)
+        );
+    </script>
+  </body>
+</html>
